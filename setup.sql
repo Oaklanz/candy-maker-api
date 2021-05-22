@@ -2,7 +2,7 @@ CREATE DATABASE candies;
 
 CREATE USER 'candies'@'localhost' IDENTIFIED BY 'C4nd13$!';
 
-GRANT ALL ON candies.* TO 'candies'@'localhost';
+GRANT ALL ON candies.* TO 'candy'@'localhost';
 
 USE candies;
 
